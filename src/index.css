@@ -1,0 +1,65 @@
+/* Tailwind Config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* <<<<<========== Universal Selector ==========>>>>> */
+* {
+
+  outline: silver dashed 1px;
+
+}
+
+
+
+/* Clash Display Font */
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+
+
+
+body {
+
+  margin: 0;
+
+  font-family: 'Clash Display', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F2F4F7;
+
+}
+
+
+
+code {
+  
+  font-family: 'Clash Display', sans-serif;
+
+}
+
+
+
+/* <<<<<========== Reusable Styling ==========>>>>> */
+p,
+a {
+
+  font-size: 20px;
+
+}
+
+
+.wrapper {
+
+  @apply w-screen
+}
+
+
+
+.container {
+
+  @apply lg:w-[80vw] md:w-[90vw] sm:w-[95vw] mx-auto py-5
+}
