@@ -8,7 +8,13 @@
 /* <<<<<========== Universal Selector ==========>>>>> */
 * {
 
-  outline: silver dashed 1px;
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  outline: orange dashed 1px;
 
 }
 
@@ -36,7 +42,7 @@ body {
 
 
 code {
-  
+
   font-family: 'Clash Display', sans-serif;
 
 }
@@ -62,4 +68,5 @@ a {
 .container {
 
   @apply lg:w-[80vw] md:w-[90vw] sm:w-[95vw] mx-auto py-5
+
 }

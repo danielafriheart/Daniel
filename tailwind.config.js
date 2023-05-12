@@ -29,7 +29,7 @@ module.exports = {
 
       "display-1": "200px",
 
-      "dislay-2": "150px",
+      "display-2": "150px",
 
       "h1": "110px",
 
