@@ -14,7 +14,7 @@
 
   box-sizing: border-box;
 
-  outline: orange dashed 1px;
+  /* outline: orange dashed 1px; */
 
 }
 
@@ -60,7 +60,8 @@ a {
 
 .wrapper {
 
-  @apply w-screen
+  @apply w-full px-0
+
 }
 
 

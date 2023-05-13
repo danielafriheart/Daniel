@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
 
-        <nav className='w-screen fixed z-50'>
+        <nav className='w-full fixed z-50'>
 
             <div className='container justify-between flex items-center'>
 
