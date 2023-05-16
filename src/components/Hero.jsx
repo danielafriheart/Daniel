@@ -6,10 +6,10 @@ function Hero() {
 
         <section className='wrapper'>
 
-            <div className="container">
+            <div className="container lg:h-screen justify-between flex flex-col">
 
                 {/* <<<<<<<<<<++++++++++ Header ==========>>>>>>>>>> */}
-                <header className="lg:w-[50vw] md:w-[55vw] mx-auto py-2 flex justify-between items-center w-full">
+                <header className="lg:w-[50vw] md:w-[55vw] mx-auto py-2 flex justify-between  w-full">
 
                     <div className="">
 
@@ -38,12 +38,12 @@ function Hero() {
                 </header>
 
 
-                <div>
-                    <h1 className="text-display-1 font-medium pl-32">Creative </h1>
+                <div className='flex flex-col gap-[23px]'>
+                    <h1 className="lg:text-display-1 text-display-2 font-medium lg:pl-32">Creative </h1>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex lg:flex-row flex-col items-center justify-between">
 
-                        <h1 className="text-display-2 font-semibold">Frontend </h1>
+                        <h1 className="text-display-2 font-bold">Frontend </h1>
 
                         <p className='w-[462px]'>
                             I specialize in front end magic with React and have a touch of Angular in my arsenal. I strive to create inclusive and accessible apps that will blow your mind.
@@ -53,7 +53,7 @@ function Hero() {
 
                     <div className="flex items-center justify-between">
 
-                        <div className="pl-24">
+                        <div className="lg:pl-24 hidden lg:flex">
                             <svg width="90" height="96" viewBox="0 0 90 96" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M45.5001 4.85303L45.5001 87.206" stroke="black" stroke-width="8" stroke-linecap="round" />
                                 <path d="M4.32361 54.853L45.5001 90.5148L85.9413 54.853" stroke="black" stroke-width="8" stroke-linecap="round" />

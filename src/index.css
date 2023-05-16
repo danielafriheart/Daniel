@@ -14,7 +14,9 @@
 
   box-sizing: border-box;
 
-  /* outline: orange dashed 1px; */
+  scroll-behavior: smooth;
+
+  outline: silver dashed 2px;
 
 }
 
@@ -56,6 +58,16 @@ a {
   font-size: 20px;
 
 }
+
+
+
+h1,
+h2{
+  
+  @apply leading-[101%]
+
+}
+
 
 
 .wrapper {

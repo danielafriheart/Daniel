@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import Hero from '../components/Hero'
+import Resume from '../components/Resume';
+import WhatIDo from '../components/WhatIDo';
 
 
 
@@ -30,6 +32,10 @@ function Home() {
         <>
 
             <Hero />
+
+            <Resume />
+
+            <WhatIDo />
 
         </>
 
