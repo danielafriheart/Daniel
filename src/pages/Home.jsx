@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Hero from '../components/Hero'
 import Resume from '../components/Resume';
 import WhatIDo from '../components/WhatIDo';
+import Gallery from '../components/Gallery';
 
 
 
@@ -36,6 +37,8 @@ function Home() {
             <Resume />
 
             <WhatIDo />
+
+            <Gallery />
 
         </>
 
