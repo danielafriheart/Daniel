@@ -4,7 +4,7 @@ function Hero() {
 
     return (
 
-        <section className='wrapper'>
+        <hero className='wrapper'>
 
             <div className="container lg:h-screen justify-between flex flex-col">
 
@@ -69,7 +69,7 @@ function Hero() {
 
             </div>
 
-        </section>
+        </hero>
 
     )
 }

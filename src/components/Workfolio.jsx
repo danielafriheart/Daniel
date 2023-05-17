@@ -1,10 +1,12 @@
 import React from 'react'
 
-function WhatIDo() {
+function Workfolio() {
+
+
+
     return (
 
-
-        <section className='wrapper mb-40'>
+        <section className='wrapper my-40'>
 
             <div className="container">
 
@@ -14,15 +16,15 @@ function WhatIDo() {
                     {/* <<<<<<<<<<++++++++++ Grid Column ! ==========>>>>>>>>>> */}
                     <div className='pt-28'>
 
-                        <ul className='flex flex-col gap-5'>
+                        <ul>
                             <li>
-                                <h2 className='text-h2 leading-[166%]'>Front End Engineering</h2>
+                                <h2 className='text-h1 font-medium leading-[166%]'>Osome</h2>
                             </li>
                             <li>
-                                <h2 className='text-h2 leading-[166%]'>Interaction Design</h2>
+                                <h2 className='text-h1 font-medium leading-[166%]'>Speak africa</h2>
                             </li>
                             <li>
-                                <h2 className='text-h2 leading-[166%]'>Creative Implementation</h2>
+                                <h2 className='text-h1 font-medium leading-[166%]'>Edozzier</h2>
                             </li>
                         </ul>
 
@@ -31,7 +33,7 @@ function WhatIDo() {
                     {/* <<<<<<<<<<++++++++++ Grid Column 2 ==========>>>>>>>>>> */}
                     <div>
 
-                        <h2 className='text-h2 font-medium leading-[166%]'>What I do</h2>
+                        <h2 className='text-h2 font-medium leading-[166%]'>Workfolio</h2>
 
                         <p>
                             I’ve had the pleasure of working with some great clients along the way. These are some of them!
@@ -47,6 +49,9 @@ function WhatIDo() {
         </section>
 
     )
+
+
+
 }
 
-export default WhatIDo
+export default Workfolio

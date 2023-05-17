@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Resume from '../components/Resume';
 import WhatIDo from '../components/WhatIDo';
 import Gallery from '../components/Gallery';
+import Workfolio from '../components/Workfolio';
 
 
 
@@ -39,6 +40,8 @@ function Home() {
             <WhatIDo />
 
             <Gallery />
+
+            <Workfolio />
 
         </>
 
