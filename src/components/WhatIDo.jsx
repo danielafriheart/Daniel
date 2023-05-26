@@ -8,7 +8,7 @@ function WhatIDo() {
 
             <div className="container">
 
-                <div className="grid lg:grid-cols-[70%,30%]">
+                <div className="grid lg:grid-cols-[72%,28%]">
 
 
                     {/* <<<<<<<<<<++++++++++ Grid Column ! ==========>>>>>>>>>> */}

@@ -45,9 +45,9 @@ function Hero() {
 
                         <h1 className="text-display-2 font-bold">Frontend </h1>
 
-                        <p className='w-[462px]'>
+                        {/* <p className='w-[462px]'>
                             I specialize in front end magic with React and have a touch of Angular in my arsenal. I strive to create inclusive and accessible apps that will blow your mind.
-                        </p>
+                        </p> */}
 
                     </div>
 

@@ -4,6 +4,7 @@ import Resume from '../components/Resume';
 import WhatIDo from '../components/WhatIDo';
 import Gallery from '../components/Gallery';
 import Workfolio from '../components/Workfolio';
+import Awards from '../components/Awards';
 
 
 
@@ -42,6 +43,8 @@ function Home() {
             <Gallery />
 
             <Workfolio />
+
+            <Awards/>
 
         </>
 

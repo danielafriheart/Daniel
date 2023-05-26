@@ -20,7 +20,7 @@ function Navbar() {
             <div className='container justify-between flex items-center'>
 
 
-                <NavLink to={"/"} className="font-semibold text-lg">
+                <NavLink to={"/"} className="font-semibold text-lg blend">
 
                     Esuola Daniel
 

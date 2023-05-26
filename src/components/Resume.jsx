@@ -1,14 +1,14 @@
 import React from 'react'
-import Button from './Button'
+// import Button from './Button'
 
 function Resume() {
 
 
-    const handleClick = () => {
+    // const handleClick = () => {
 
-        alert("it works")
+    //     alert("it works")
 
-    }
+    // }
 
     return (
 
@@ -17,24 +17,28 @@ function Resume() {
 
             <div className="container">
 
-                <div className="grid lg:grid-cols-[40%,60%] py-40">
+                <div className="grid lg:grid-cols-[40%,60%] py-52">
 
 
                     {/* <<<<<<<<<<++++++++++ Grid Column ! ==========>>>>>>>>>> */}
                     <div className='lg:pr-14'>
 
                         <h2 className='text-h2 font-medium leading-[166%]'>Resume</h2>
-
+ 
                         <p>
-                            I am constantly seeking out new challenges and opportunities to expand my knowledge and skills. With years of experience in creating visually stunning and functional products and web experiences.
+                            I am constantly seeking out new challenges and opportunities to expand my knowledge and skills. 
+                        </p>
+                        <br />
+                        <p>
+                            With years of experience in creating visually stunning and functional products and web experiences.
                         </p>
 
 
-                        <div className='mt-[50px]'>
+                        {/* <div className='mt-[50px]'>
 
                             <Button btnText={"PDF"} onClick={handleClick} />
 
-                        </div>
+                        </div> */}
 
                     </div>
 
