@@ -27,19 +27,22 @@ function Navbar() {
                 </NavLink>
 
 
-                <div className=''>
+                <div>
 
+                    <ul className='flex gap-5'>
+                        <li>
+                            <NavLink to={"/"} className='font-medium px-3'>Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={"/about"} className='font-medium px-3'>About</NavLink>
+                        </li>
+                    </ul>
 
                     <button
+                        className='lg:hidden flex '
                         onClick={handleMenuToggle}
                     >
-
-                        <svg className='hidden lg:flex' width="61" height="19" viewBox="0 0 61 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="2.5" y1="2" x2="58.4756" y2="2" stroke="black" stroke-width="4" stroke-linecap="round" />
-                            <line x1="2.52448" y1="17" x2="58.5" y2="17" stroke="black" stroke-width="4" stroke-linecap="round" />
-                        </svg>
-
-                        <p className='lg:hidden flex font-medium'>Menu</p>
+                        <p className='font-medium'>Menu</p>
 
                     </button>
 
