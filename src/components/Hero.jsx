@@ -4,9 +4,9 @@ function Hero() {
 
     return (
 
-        <hero className='wrapper'>
+        <section className='wrapper'>
 
-            <div className="container lg:h-screen justify-between flex flex-col">
+            <div className="container justify-between flex flex-col">
 
                 {/* <<<<<<<<<<++++++++++ Header ==========>>>>>>>>>> */}
                 <header className="lg:w-[50vw] md:w-[55vw] mx-auto py-2 flex justify-between  w-full">
@@ -38,7 +38,7 @@ function Hero() {
                 </header>
 
 
-                <div className='flex flex-col gap-[23px]'>
+                <div className='flex flex-col gap-[23px] mt-36'>
                     <h1 className="lg:text-display-1 text-display-2 font-medium lg:pl-32">Creative </h1>
 
                     <div className="flex lg:flex-row flex-col items-center justify-between">
@@ -69,7 +69,7 @@ function Hero() {
 
             </div>
 
-        </hero>
+        </section>
 
     )
 }
